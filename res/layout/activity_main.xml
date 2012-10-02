@@ -1,0 +1,42 @@
+ <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="" >
+
+    </TextView>
+    <Button
+        android:id="@+id/butt1"
+        android:text="Lock in memory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true">
+    </Button>
+    <ListView
+        android:id="@+id/lvApps"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dip"
+        android:layout_marginBottom="2dip"
+        android:drawSelectorOnTop="false"
+        android:visibility="visible"
+        android:layout_below="@+id/textView2"
+        android:layout_above="@+id/butt1" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Choose app to lock in memory!"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </RelativeLayout>
